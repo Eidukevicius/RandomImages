@@ -17,7 +17,7 @@ function createImages(container) {
   for (let i = 1; i <= 10; i++) {
     const li = document.createElement("li");
     const img = document.createElement("img");
-    img.src = `../images/image${i}.jpg`;
+    img.src = `images/image${i}.jpg`;
     img.alt = `Image ${i}`;
     li.appendChild(img);
     container.appendChild(li);
